@@ -3,6 +3,8 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^3.0.1",
+    "airbnb-browser-shims": "^1.11.1",
+    "babel-preset-airbnb": "^2.4.0",
     "babel-preset-react": "^6.24.1",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
