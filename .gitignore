@@ -20,3 +20,6 @@
 /public/packs
 /public/packs-test
 /node_modules
+
+.ruby-gemset
+.ruby-version
