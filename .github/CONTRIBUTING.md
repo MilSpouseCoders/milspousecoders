@@ -2,6 +2,10 @@
 
 ## Quick Start
 
+### Find something to work on
+You can view our current issues on Github. Once you find something you want to
+work on, let us know by commenting on the issue.
+
 ### Fork a copy
 Fork a copy  of the original repository to your own repository. Github provides
 a convenient button at the top right of the repositories page.
