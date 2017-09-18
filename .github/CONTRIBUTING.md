@@ -23,7 +23,7 @@ others contributing as well (at least we hope).
 
 ```bash
 
-$ git remote add upstream git@github.com:MilSpouseCoders/milspousecoders.git
+$ git remote add upstream https://github.com/MilSpouseCoders/milspousecoders.git
 
 ```
 
