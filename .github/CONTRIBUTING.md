@@ -15,9 +15,11 @@ section below.
 1. Find an issue (to-do: merge changes from other PR here)
 2. Make changes and open pull request, following the "Fork and Branch" workflow.
    We have instructions below for those who need them.
-3. After opening the pull request, verify that all checks pass and that there
+3. Before opening a pull request, run `bundle exec rake`. This will run all of
+   the specs and linters and will also calculate the test coverage.
+4. After opening the pull request, verify that all checks pass and that there
    are no merge conflicts.
-4. You can expect to hear back from us within a week. If you haven't heard from
+5. You can expect to hear back from us within a week. If you haven't heard from
    us by then, feel free to send us a notification by commenting on the pull
    request :slightly-smiling-face:
 
