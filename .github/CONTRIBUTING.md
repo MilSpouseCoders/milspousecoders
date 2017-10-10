@@ -25,6 +25,13 @@ section below.
 
 ## Summary of Git Fork and Branch Workflow
 
+Below, we give basic instructions on how to collaborate using the "fork and
+branch" workflow. For more in-depth instructions, check out [Udacity's course on
+git and GitHub](https://classroom.udacity.com/courses/ud775) or read [the
+forking workflow section](
+  https://www.atlassian.com/git/tutorials/comparing-workflows#forking-workflow)
+of Atlassian's "Comparing Workflows" tutorial.
+
 ### Setup for First Time Contributors
 
 #### Fork a copy
