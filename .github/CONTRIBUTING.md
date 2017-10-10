@@ -1,5 +1,9 @@
 # Contribution Guide
 
+We are excited that you're thinking about contributing to our project! We
+welcome contributions from developers, designers, copy-editors, and others of
+all skill levels! If you need help getting started, just let us know :slightly-smiling-face:
+
 ## Quick Start
 
 1. Find an issue (to-do: merge changes from other PR here)
