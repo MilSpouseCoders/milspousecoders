@@ -4,7 +4,10 @@ Ruby 2.4.1
 Rails 5.1.3  
 Postgresql 9.6.2  
 
-## Want to contribute?  
+## Want to contribute?
+
+We're excited to work with you! Check out our [contribution
+guidelines](.github/CONTRIBUTING.md) for more info.
 
 **Please use the following style guides:**  
 [Airbnb's Ruby Style Guide](https://github.com/airbnb/ruby)  
