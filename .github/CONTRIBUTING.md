@@ -3,8 +3,18 @@
 ## Quick Start
 
 ### Find something to work on
-You can view our current issues on Github. Once you find something you want to
-work on, let us know by commenting on the issue.
+You can view our current issues on Github. Issues might have one or more of the
+following special tags:
+- ready - just like it sounds, the issues is ready for someone to start working
+  on it
+- first-timers-only - reserved for those looking to make their first open source
+  contribution
+- beginner friendly - a good place to start if you are a new developer or are
+  new to this project
+
+Once you find something you want to work on, let us know by commenting on the
+issue or assigning it to yourself. Also, add the "in progress" label and if the
+issue has a "ready" label, remove it.
 
 ### Fork a copy
 Fork a copy  of the original repository to your own repository. Github provides
