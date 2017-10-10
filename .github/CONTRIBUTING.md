@@ -71,9 +71,9 @@ We need to make sure we're working with the most up-to-date version of the
 project. To pull any changes into your local repository simply do this:
 
 ```bash
-git checkout master # first, make sure you're on the master branch
-git fetch upstream # download new commits from the official repo
-git merge upstream/master # merge those new commits into your current branch
+$ git checkout master # first, make sure you're on the master branch
+$ git fetch upstream # download new commits from the official repo
+$ git merge upstream/master # merge those new commits into your current branch
 ```
 
 ### Do Work
