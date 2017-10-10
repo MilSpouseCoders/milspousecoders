@@ -1,1 +1,12 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
 @import "bootstrap";
+@import "sticky-footer";
+
+// Fixes bootstrap nav-brand container overlap
+@include media-breakpoint-down(xs) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
