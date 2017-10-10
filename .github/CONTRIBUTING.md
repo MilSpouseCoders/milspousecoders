@@ -81,7 +81,7 @@ Now it is time to get to work on that shiny new feature.
 
 ```bash
 $ git checkout master
-$ git checkout -b newFeature
+$ git checkout -b new-feature
 ```
 
 Here we again made sure we were on our master branch and then we create and
@@ -89,17 +89,46 @@ checkout a new branch called newFeature. The branch name should identify the
 issue you are working on. For example issue-5 or add-contribution-instructions.
 
 ### Prepare for a Pull Request
-Now we are ready to submit our work.
+Now we are ready to submit our work. Start by pushing your new branch to your
+fork:
 
 ```bash
-$ git fetch upstream
+$ git push origin new-feature
+```
+
+Next, navigate to your fork on GitHub. You should see a notification that says
+something "Hey we noticed that you recently pushed a new branch". In that
+notification, there is a link you can use to create a new pull request. Click on
+that and make sure that the base repo for the comparison is the *master* branch
+on the *MilSpouseCoders/milspousecoders* repo and the other repo listed is the
+feature branch on your fork. If your changes can be automatically merged, then
+just fill out any details you'd like to and then submit the pull request.
+
+If you see merge conflicts, you should still submit the pull request, but you
+have some more work to do before it is ready for review. First, we need to
+update our local master branch with the changes from the official, upstream
+repo:
+
+```bash
 $ git checkout master
-$ git merge upstream/master
+$ git pull upstream master
 ```
 
-If there are any new commits, you'll need to rebase your branch.
+Next, we need to merge these new changes into the branch we're working on:
 
 ```bash
-$ git checkout newFeature
-$ git rebase master
+$ git checkout new-feature
+$ git merge master
 ```
+
+This will result in a merge conflict. Open up your text editor and resolve the
+conflict. Once you're done, commit your changes and push your changes to your
+fork:
+
+```bash
+$ git commit -a
+$ git push origin new-feature
+```
+
+This will automatically update the pull request, and it should now say that the
+merge can be performed automatically.
