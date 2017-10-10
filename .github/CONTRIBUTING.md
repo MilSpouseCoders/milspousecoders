@@ -32,7 +32,9 @@ Clone your fork to your local machine, so you can start working.
 $ git clone git@github.com:YOUR_USER_NAME/milspousecoders.git
 ```
 
-Do be sure to replace YOUR_USER_NAME with your user name.
+Do be sure to replace YOUR_USER_NAME with your user name. As with most Rails
+apps, you should run `bin/setup` to install the gems used by this project and to
+get the database setup.
 
 #### Connect the "Upstream" Repository
 
