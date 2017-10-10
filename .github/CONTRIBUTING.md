@@ -6,6 +6,12 @@ all skill levels! If you need help getting started, just let us know :slightly-s
 
 ## Quick Start
 
+If you are new to rails, we recommend that you check out the [setup
+guide(https://gorails.com/setup) written by the team at GO RAILS. When you get
+to the section that has you create a new Rails application, stop, come back
+here, and go through the steps in the "Setup for First Time Contributors"
+section below.
+
 1. Find an issue (to-do: merge changes from other PR here)
 2. Make changes and open pull request, following the "Fork and Branch" workflow.
    We have instructions below for those who need them.
