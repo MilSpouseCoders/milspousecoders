@@ -2,6 +2,15 @@
 
 ## Quick Start
 
+1. Find an issue (to-do: merge changes from other PR here)
+2. Make changes and open pull request, following the "Fork and Branch" workflow.
+   We have instructions below for those who need them.
+3. After opening the pull request, verify that all checks pass and that there
+   are no merge conflicts.
+4. You can expect to hear back from us within a week. If you haven't heard from
+   us by then, feel free to send us a notification by commenting on the pull
+   request :slightly-smiling-face:
+
 ## Summary of Git Fork and Branch Workflow
 
 ### Setup for First Time Contributors
