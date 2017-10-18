@@ -12,7 +12,7 @@ to the section that has you create a new Rails application, stop, come back
 here, and go through the steps in the "Setup for First Time Contributors"
 section below.
 
-1. Find an issue (to-do: merge changes from other PR here)
+1. Find an issue (see below).
 2. Make changes and open pull request, following the "Fork and Branch" workflow.
    We have instructions below for those who need them.
 3. Before opening a pull request, run `bundle exec rake`. This will run all of
@@ -22,6 +22,20 @@ section below.
 5. You can expect to hear back from us within a week. If you haven't heard from
    us by then, feel free to send us a notification by commenting on the pull
    request :slightly-smiling-face:
+
+## Find something to work on
+You can view our current issues on Github. Issues might have one or more of the
+following special tags:
+- ready - just like it sounds, the issues is ready for someone to start working
+ on it
+- first-timers-only - reserved for those looking to make their first open source
+ contribution
+- beginner friendly - a good place to start if you are a new developer or are
+ new to this project
+
+Once you find something you want to work on, let us know by commenting on the
+issue or assigning it to yourself. Also, add the "in progress" label and if the
+issue has a "ready" label, remove it.
 
 ## Summary of Git Fork and Branch Workflow
 
