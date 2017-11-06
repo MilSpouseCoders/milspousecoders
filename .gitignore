@@ -22,3 +22,5 @@
 /node_modules
 
 .ruby-gemset
+
+coverage
