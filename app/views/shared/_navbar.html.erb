@@ -26,6 +26,10 @@
             </div>
           </li>
 
+          <% if current_member.has_role? :admin %>
+            <li class="nav-item"><%= link_to 'Admin Dashboard', admin_dashboards_path, class: 'nav-link' %></li>
+          <% end %>
+
         <% else %>
           <li class="nav-item"><%= link_to "Sign Up", new_member_registration_path, class: "nav-link" %></li>
           <li class="nav-item"><%= link_to "Login", new_member_session_path, class: "nav-link" %></li>
