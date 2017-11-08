@@ -19,15 +19,6 @@ Bundler/OrderedGems:
 Layout/EmptyLines:
   Exclude:
     - 'bin/setup'
-    - 'db/migrate/20170902135841_devise_create_members.rb'
-
-# Offense count: 2
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle, SupportedStyles.
-# SupportedStyles: empty_lines, no_empty_lines
-Layout/EmptyLinesAroundBlockBody:
-  Exclude:
-    - 'db/schema.rb'
 
 # Offense count: 1
 # Cop supports --auto-correct.
@@ -48,13 +39,6 @@ Layout/EmptyLinesAroundExceptionHandlingKeywords:
 Layout/SpaceInsideBrackets:
   Exclude:
     - 'bin/webpack'
-    - 'config/environments/production.rb'
-
-# Offense count: 1
-# Cop supports --auto-correct.
-Layout/TrailingWhitespace:
-  Exclude:
-    - 'config/routes.rb'
 
 # Offense count: 59
 # Configuration parameters: AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.
@@ -68,37 +52,10 @@ Metrics/MethodLength:
   Max: 15
 
 # Offense count: 1
-Rails/FilePath:
-  Exclude:
-    - 'config/environments/development.rb'
-
-# Offense count: 1
 # Cop supports --auto-correct.
 Style/BlockComments:
   Exclude:
     - 'spec/spec_helper.rb'
-
-# Offense count: 1
-# Configuration parameters: EnforcedStyle, SupportedStyles.
-# SupportedStyles: nested, compact
-Style/ClassAndModuleChildren:
-  Exclude:
-    - 'test/test_helper.rb'
-
-# Offense count: 9
-Style/Documentation:
-  Exclude:
-    - 'spec/**/*'
-    - 'test/**/*'
-    - 'app/controllers/application_controller.rb'
-    - 'app/controllers/pages_controller.rb'
-    - 'app/helpers/application_helper.rb'
-    - 'app/helpers/pages_helper.rb'
-    - 'app/mailers/application_mailer.rb'
-    - 'app/models/application_record.rb'
-    - 'app/models/member.rb'
-    - 'config/application.rb'
-    - 'db/migrate/20170902135841_devise_create_members.rb'
 
 # Offense count: 4
 # Cop supports --auto-correct.
@@ -107,13 +64,6 @@ Style/Documentation:
 Style/EmptyMethod:
   Exclude:
     - 'app/controllers/pages_controller.rb'
-
-# Offense count: 49
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle, SupportedStyles.
-# SupportedStyles: when_needed, always, never
-Style/FrozenStringLiteralComment:
-  Enabled: false
 
 # Offense count: 1
 # Cop supports --auto-correct.
@@ -126,13 +76,6 @@ Style/MutableConstant:
 # Configuration parameters: Strict.
 Style/NumericLiterals:
   MinDigits: 15
-
-# Offense count: 1
-# Cop supports --auto-correct.
-# Configuration parameters: PreferredDelimiters.
-Style/PercentLiteralDelimiters:
-  Exclude:
-    - 'config/spring.rb'
 
 # Offense count: 75
 # Cop supports --auto-correct.
