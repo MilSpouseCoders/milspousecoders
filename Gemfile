@@ -30,6 +30,8 @@ end
 
 group :test do
   gem 'simplecov', require: false
+  gem 'chromedriver-helper'
+  gem 'capybara-selenium'
 end
 
 group :development do
