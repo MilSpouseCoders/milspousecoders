@@ -9,6 +9,8 @@ module DeviseHelper
     </div>
     HTML
 
-    html.html_safe
+    # rubocop:disable Rails/OutputSafety
+    html.html_safe # TODO don't use html_safe, use content_tag above (issue #39)
+    # rubocop:enable Rails/OutputSafety
   end
 end

@@ -1,5 +1,15 @@
 inherit_from:
   - ./.rubocop_todo.yml
 
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'vendor/**/*'
+
 Rails:
   Enabled: true
+Style/Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false

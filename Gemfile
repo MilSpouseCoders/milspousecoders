@@ -18,17 +18,21 @@ gem 'devise', '~> 4.3'
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails', '~> 4.3.1'
 gem 'font-awesome-sass', '~> 4.7'
+gem 'rolify'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
+  gem 'factory_bot_rails'
   gem 'selenium-webdriver'
   gem 'rspec-rails', '~> 3.6'
 end
 
 group :test do
+  gem 'rails-controller-testing'
+  gem 'shoulda-matchers', '~> 3.1'
   gem 'simplecov', require: false
 end
 
