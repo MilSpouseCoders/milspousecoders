@@ -24,3 +24,4 @@
 .ruby-gemset
 
 coverage
+spec/examples.txt
